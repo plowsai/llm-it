@@ -1,3 +1,7 @@
+import openai 
+import json 
+import os 
+import request
 from flask import Flask,  render_template, request
 
 app = Flask(__name__)
